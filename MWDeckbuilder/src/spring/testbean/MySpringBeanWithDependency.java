@@ -1,9 +1,9 @@
-package testbean;
+package spring.testbean;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import writer.IWriter;
+import spring.writer.IWriter;
 
 @Service
 public class MySpringBeanWithDependency {
